@@ -1,0 +1,16 @@
+{
+    "name": "走在路边的小园子",
+    "short_name": "走在路边的小园子",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#2196f3",
+    "description": "似曾相识燕归来",
+    "theme_color": "blue",
+    "icons": [
+      {
+        "src": "./minzz.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }
+    ]
+}
