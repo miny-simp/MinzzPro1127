@@ -20,8 +20,8 @@ module.exports = {
                 text: '前端日记',
                 ariaLabel: '分类',
                 items: [
-                    { text: '文章', link: '/pages/frontEnd/vueErrorRecord.md' },
-                    { text: '琐碎', link: '/pages/frontEnd/vue引入第三方js.md' },
+                    { text: 'VUE', link: '/pages/frontEnd/vueErrorRecord.md' },
+                    { text: '前端记录', link: '/pages/frontEnd/lodash按需加载.md' },
                 ]
             },
             { text: '篱笆小故事', link: '/pages/moodDiary/20190610.md' },
@@ -40,12 +40,24 @@ module.exports = {
                 },
                 {
                     title: '前端知识点记录',
-                    collapsable: false, // 可选的, 默认值是 true,
+                    collapsable: false,
                     children: [
-                        ['lodash按需加载.md', 'lodash按需加载']
+                        ['lodash按需加载.md', 'lodash按需加载'],
+                        ['高阶函数reduce()等.md', '高阶函数reduce()等'],
+                        ['公用js.md', '公用js']
                     ]
                 }
             ],
+            '/pages/moodDiary/': [
+                {
+                    title: '篱笆小故事',
+                    collapsable: false,
+                    children: [
+                        ['20190610.md', '凡是人总有取舍'],
+                        ['纳兰容若.md', '山一程，水一程']
+                    ]
+                }
+            ]
         }
     }
 }
